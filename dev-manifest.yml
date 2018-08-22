@@ -5,7 +5,6 @@ applications:
     instances: 2
     memory: 750M
     name: roster
-    path: roster-app.jar
     routes:
      -  route: roster-stoneb.cfapps.io
     services:
