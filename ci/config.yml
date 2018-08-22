@@ -2,7 +2,7 @@ app-name: roster
 initials: brs
 language: gradle
 
-github-app-repo-uri: "git@github.com/benjaminrstone/roster.git" # ssh url of your app fork in double quotes. ex: "git@github.com:spgreenberg/roster.git"
+github-app-repo-uri: "git@github.com:benjaminrstone/roster.git" # ssh url of your app fork in double quotes. ex: "git@github.com:spgreenberg/roster.git"
 
 github-pipelines-repo-uri: "git@github.com:benjaminrstone/training-pipelines.git" # ssh url of your training-pipelines fork in double quotes.  ex: "git@github.com:spgreenberg/training-pipelines.git"
 
