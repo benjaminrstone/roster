@@ -7,7 +7,7 @@ applications:
     name: roster
     path: roster-app.jar
     routes:
-     -  "roster-stoneb.cfapps.io"
+     -  route: roster-stoneb.cfapps.io
     services:
      -  peopledb
     env: 
