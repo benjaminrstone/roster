@@ -1,0 +1,17 @@
+--- 
+applications: 
+  - 
+    buildpack: java_buildpack
+    instances: 2
+    memory: 750M
+    name: roster
+    path: roster-app.jar
+    routes:
+     -  "roster-stoneb.cfapps.io"
+    services:
+     -  peopledb
+    env: 
+        ROSTER_A: 3.1415
+        ROSTER_B: 6.283
+        ROSTER_C: 2.718
+        APP_VERSION: blue
