@@ -5,8 +5,6 @@ applications:
     instances: 2
     memory: 750M
     name: roster
-    routes:
-     -  route: roster-stoneb.cfapps.io
     services:
      -  peopledb
     env: 
