@@ -7,6 +7,7 @@ applications:
     name: roster
     services:
      -  peopledb
+     -  cndev-config-server
     env: 
         ROSTER_A: 3.1415
         ROSTER_B: 6.283
