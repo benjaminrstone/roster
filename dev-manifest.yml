@@ -8,6 +8,7 @@ applications:
     services:
      -  peopledb
      -  cndev-config-server
+     -  roster-rabbitmq
     env: 
         ROSTER_A: 3.1415
         ROSTER_B: 6.283
